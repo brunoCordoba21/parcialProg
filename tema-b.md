@@ -32,4 +32,5 @@ Se entrega el siguiente HTML mínimo:
 </body>
 </html>
 
+
 Escribir el JavaScript necesario para que, al hacer clic en `btnEvaluar`, se muestre en `resultado` si la longitud del texto ingresado en `inputTexto` es par o impar (por ejemplo: `Longitud par` o `Longitud impar`).

@@ -30,21 +30,29 @@ if (usuario === "admin" && contrasena === "1234") {
 
 // punto 2 parcial
 
+
 let alumnos = [
     { nombre: "Bruno", nota: 10 },
     { nombre: "Brenda", nota: 9 },
     { nombre: "Matias", nota: 5 }
+];
 
-]
-let notaBaja = alumnos[0]
-for (let i = 1; i < alumnos.length; i++) {
+let suma = 0;
 
-    if (alumnos[i].nota < notaBaja.nota) {
-        notaBaja = alumnos[i]
-    }
+for (let i = 0; i < alumnos.length; i++) {
+    let alumno = alumnos[i];
+    suma += alumno.nota;
 }
-console.log();
-(`el alumno con nota mas baja es ${notaBaja.nombre} con ${notaBaja.nota}`);
+
+let promedio = suma / alumnos.length;
+
+console.log(`Promedio: ${promedio}`);
+
+if (promedio >= 6) {
+    console.log("Clase aprobada");
+} else {
+    console.log("Clase desaprobada");
+}
 
 
 
