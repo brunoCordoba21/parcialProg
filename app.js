@@ -1,7 +1,7 @@
 //Ejercicio 1
 
-/*
 
+/*
 let usuario = document.getElementById("usuario")
 let contrasenas = document.getElementById("contrasena")
 let boton = document.getElementById("btnAcceder");
@@ -11,18 +11,18 @@ boton.addEventListener("click", function()
     let usuarios = usuario.value;
     let contrasenas = contrasena.value;
 
-if (usuario === "admin" && contrasena === "1234") {
-    resultado.innerText = (`Acceso usted es ${usuario}`)
+if (usuarios === "admin" && contrasenas === "1234") {
+    resultado.innerText = (`Acceso usted es ${usuarios}`)
 
-} else if (usuario === "invitado" && contrasena === "0000") {
+} else if (usuarios === "invitado" && contrasenas === "0000") {
  resultado.innerText =(`Acceso Limitado`);
 
 } else {
    resultado.innerText =("Acceso Denegado")
 };
 })
-
 */
+
 
 
 
